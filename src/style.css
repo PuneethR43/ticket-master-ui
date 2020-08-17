@@ -1,0 +1,99 @@
+.overall-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.inner-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.label-dialog{
+    width:100%
+}
+
+.input-dialog{
+    border: 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+.input-dialog:focus{
+    border: 0!important;
+    border-bottom: 2px solid lightblue!important;
+    outline:0;
+    transition: 0.3s ease;
+    
+}
+
+.register{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.button-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-img{
+    
+    height: 100%;
+    background-image: url('../src/images/register.png');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width:100%;
+}
+
+html,body{
+    height:100%;
+    width:100%
+}
+
+.successMsg{
+    margin-top: 20px;
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ticket-master{
+    height: 100vh;
+    background-image: url('../src/images/ticket-master.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    background-attachment: scroll;
+    width:100%
+}
+
+.login-img{
+    height: 100%;
+    background-image: url('../src/images/login.jpg');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width:100%;
+}
+
+.align-card{
+    padding:50px;
+    background-color: antiquewhite;
+}
+
+.success-message{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color:green;
+    margin-top: 20px;
+}
